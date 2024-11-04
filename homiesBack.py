@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 
 # Load the data (replace 'sales_data.csv' with your actual file path)
-data = pd.read_csv(r"C:\Users\Asus\Downloads\TTP Codings\sales_data.csv")
+data = pd.read_csv(r"sales_data.csv")
 data['Date'] = pd.to_datetime(data['Date'], errors='coerce')
 
 # Extract year and month columns for filtering
